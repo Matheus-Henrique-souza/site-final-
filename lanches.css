@@ -1,0 +1,96 @@
+body{
+    color: #1c1c1c;
+    background-color: rgb(247, 246, 234);
+}
+
+h2, h3, h4, h5{
+    color: #000000;
+    text-align: center;
+    
+}
+
+
+nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #eec50d;
+}
+nav > a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: 800;
+    font-size: 32px;
+    font-family:Yellowtail, serif ;
+    height: 100px;
+
+}
+
+
+
+#lanches img{
+    width: 40%;
+    
+}
+/*Lanches*/
+
+#lanches{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    
+
+}
+
+#lanches h2, h3,h4,h5 {
+    margin-bottom: 20px;
+    font-size:125%;
+
+}
+#contato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+
+}
+
+#contato h2 {
+    color: #000000;
+}
+
+
+/*rodapé*/
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #eec50d;
+    color: #ffffff;
+    font-size: 20px;
+    width: 100%;
+    height: 100%;
+
+}
+footer a {
+    text-decoration: none;
+    color: #000000;
+}
+
+@media screen  and (min-width: 768px) {
+ 
+    /*nav*/
+
+    nav{
+            flex-direction: row;
+            justify-content: space-around;
+
+    }
+}
+    nav ul {
+
+         flex-direction: row;
+         width: 70%;
+    }
